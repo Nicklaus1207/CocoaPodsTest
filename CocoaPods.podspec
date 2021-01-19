@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CocoaPods"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "CocoaPods summary"
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "PushSDK/**/*.h"
+  spec.source_files  = "PushSDK","PushSDK/Headers/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
